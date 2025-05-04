@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F429E70A2DC55B9A00D3C829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429E7092DC55B9A00D3C829 /* AppDelegate.swift */; };
+		F429E70C2DC55B9A00D3C829 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429E70B2DC55B9A00D3C829 /* SceneDelegate.swift */; };
+		F429E70E2DC55B9A00D3C829 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429E70D2DC55B9A00D3C829 /* Home.swift */; };
+		F429E7112DC55B9A00D3C829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F429E70F2DC55B9A00D3C829 /* Main.storyboard */; };
+		F429E7142DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F429E7122DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodeld */; };
+		F429E7162DC55B9D00D3C829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F429E7152DC55B9D00D3C829 /* Assets.xcassets */; };
+		F429E7192DC55B9D00D3C829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F429E7172DC55B9D00D3C829 /* LaunchScreen.storyboard */; };
+		F429E7252DC5676200D3C829 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429E7242DC5676200D3C829 /* Workout.swift */; };
+		F429E7272DC5677200D3C829 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429E7262DC5677200D3C829 /* Goals.swift */; };
+		F429E7292DC5678500D3C829 /* ProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429E7282DC5678500D3C829 /* ProgressVC.swift */; };
+		F4A69BAF2DC7F51B00F55B4D /* Entity+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A69BAE2DC7F51B00F55B4D /* Entity+CoreDataClass copy.swift */; };
+		F4A69BB12DC7F52100F55B4D /* Entity+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A69BB02DC7F52100F55B4D /* Entity+CoreDataProperties copy.swift */; };
+		F4A69BBB2DC80D6700F55B4D /* WorkoutEntity+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A69BBA2DC80D6600F55B4D /* WorkoutEntity+CoreDataClass copy.swift */; };
+		F4A69BBD2DC80D6A00F55B4D /* WorkoutEntity+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A69BBC2DC80D6A00F55B4D /* WorkoutEntity+CoreDataProperties copy.swift */; };
+		F86B45C28F82003932445500 /* Pods_CodeAlpha_Fitness_Tracker_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A81CBDC4CCC5ECAA70CB6C /* Pods_CodeAlpha_Fitness_Tracker_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8A81CBDC4CCC5ECAA70CB6C /* Pods_CodeAlpha_Fitness_Tracker_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeAlpha_Fitness_Tracker_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31461176DBBB291E43B911E /* Pods-CodeAlpha_Fitness_Tracker_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeAlpha_Fitness_Tracker_App.release.xcconfig"; path = "Target Support Files/Pods-CodeAlpha_Fitness_Tracker_App/Pods-CodeAlpha_Fitness_Tracker_App.release.xcconfig"; sourceTree = "<group>"; };
+		D4EC24A8F9C0C23BC335DB10 /* Pods-CodeAlpha_Fitness_Tracker_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeAlpha_Fitness_Tracker_App.debug.xcconfig"; path = "Target Support Files/Pods-CodeAlpha_Fitness_Tracker_App/Pods-CodeAlpha_Fitness_Tracker_App.debug.xcconfig"; sourceTree = "<group>"; };
+		F429E7062DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAlpha_Fitness_Tracker_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F429E7092DC55B9A00D3C829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F429E70B2DC55B9A00D3C829 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F429E70D2DC55B9A00D3C829 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F429E7102DC55B9A00D3C829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F429E7132DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeAlpha_Fitness_Tracker_App.xcdatamodel; sourceTree = "<group>"; };
+		F429E7152DC55B9D00D3C829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F429E7182DC55B9D00D3C829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F429E71A2DC55B9D00D3C829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F429E7242DC5676200D3C829 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		F429E7262DC5677200D3C829 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		F429E7282DC5678500D3C829 /* ProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressVC.swift; sourceTree = "<group>"; };
+		F4A69BAE2DC7F51B00F55B4D /* Entity+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		F4A69BB02DC7F52100F55B4D /* Entity+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		F4A69BBA2DC80D6600F55B4D /* WorkoutEntity+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WorkoutEntity+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		F4A69BBC2DC80D6A00F55B4D /* WorkoutEntity+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WorkoutEntity+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F429E7032DC55B9A00D3C829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86B45C28F82003932445500 /* Pods_CodeAlpha_Fitness_Tracker_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F58D14499556620946F83A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4EC24A8F9C0C23BC335DB10 /* Pods-CodeAlpha_Fitness_Tracker_App.debug.xcconfig */,
+				D31461176DBBB291E43B911E /* Pods-CodeAlpha_Fitness_Tracker_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		26BF876CCB99955819F20227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A81CBDC4CCC5ECAA70CB6C /* Pods_CodeAlpha_Fitness_Tracker_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F429E6FD2DC55B9A00D3C829 = {
+			isa = PBXGroup;
+			children = (
+				F429E7082DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App */,
+				F429E7072DC55B9A00D3C829 /* Products */,
+				23F58D14499556620946F83A /* Pods */,
+				26BF876CCB99955819F20227 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F429E7072DC55B9A00D3C829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F429E7062DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F429E7082DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App */ = {
+			isa = PBXGroup;
+			children = (
+				F429E7092DC55B9A00D3C829 /* AppDelegate.swift */,
+				F429E70B2DC55B9A00D3C829 /* SceneDelegate.swift */,
+				F429E7202DC55C2900D3C829 /* CoreData */,
+				F429E7232DC55C4400D3C829 /* Models */,
+				F429E7212DC55C3100D3C829 /* View */,
+				F429E7222DC55C3800D3C829 /* Controller */,
+				F429E7152DC55B9D00D3C829 /* Assets.xcassets */,
+				F429E71A2DC55B9D00D3C829 /* Info.plist */,
+			);
+			path = CodeAlpha_Fitness_Tracker_App;
+			sourceTree = "<group>";
+		};
+		F429E7202DC55C2900D3C829 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F429E7122DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodeld */,
+				F4A69BAE2DC7F51B00F55B4D /* Entity+CoreDataClass copy.swift */,
+				F4A69BB02DC7F52100F55B4D /* Entity+CoreDataProperties copy.swift */,
+				F4A69BBA2DC80D6600F55B4D /* WorkoutEntity+CoreDataClass copy.swift */,
+				F4A69BBC2DC80D6A00F55B4D /* WorkoutEntity+CoreDataProperties copy.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F429E7212DC55C3100D3C829 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F429E70F2DC55B9A00D3C829 /* Main.storyboard */,
+				F429E7172DC55B9D00D3C829 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F429E7222DC55C3800D3C829 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F429E70D2DC55B9A00D3C829 /* Home.swift */,
+				F429E7242DC5676200D3C829 /* Workout.swift */,
+				F429E7262DC5677200D3C829 /* Goals.swift */,
+				F429E7282DC5678500D3C829 /* ProgressVC.swift */,
+				F4456B5A2DC5D1E2005501DE /* tableViewCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F429E7232DC55C4400D3C829 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4456B5A2DC5D1E2005501DE /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F429E7052DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F429E71D2DC55B9D00D3C829 /* Build configuration list for PBXNativeTarget "CodeAlpha_Fitness_Tracker_App" */;
+			buildPhases = (
+				E076E668A70A14CC765C5A5A /* [CP] Check Pods Manifest.lock */,
+				F429E7022DC55B9A00D3C829 /* Sources */,
+				F429E7032DC55B9A00D3C829 /* Frameworks */,
+				F429E7042DC55B9A00D3C829 /* Resources */,
+				5384CA110340D324A33FEF11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeAlpha_Fitness_Tracker_App;
+			productName = CodeAlpha_Fitness_Tracker_App;
+			productReference = F429E7062DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F429E6FE2DC55B9A00D3C829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F429E7052DC55B9A00D3C829 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F429E7012DC55B9A00D3C829 /* Build configuration list for PBXProject "CodeAlpha_Fitness_Tracker_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F429E6FD2DC55B9A00D3C829;
+			productRefGroup = F429E7072DC55B9A00D3C829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F429E7052DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F429E7042DC55B9A00D3C829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F429E7192DC55B9D00D3C829 /* LaunchScreen.storyboard in Resources */,
+				F429E7162DC55B9D00D3C829 /* Assets.xcassets in Resources */,
+				F429E7112DC55B9A00D3C829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5384CA110340D324A33FEF11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeAlpha_Fitness_Tracker_App/Pods-CodeAlpha_Fitness_Tracker_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeAlpha_Fitness_Tracker_App/Pods-CodeAlpha_Fitness_Tracker_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeAlpha_Fitness_Tracker_App/Pods-CodeAlpha_Fitness_Tracker_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E076E668A70A14CC765C5A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeAlpha_Fitness_Tracker_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F429E7022DC55B9A00D3C829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A69BB12DC7F52100F55B4D /* Entity+CoreDataProperties copy.swift in Sources */,
+				F429E70E2DC55B9A00D3C829 /* Home.swift in Sources */,
+				F429E7142DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodeld in Sources */,
+				F4A69BBD2DC80D6A00F55B4D /* WorkoutEntity+CoreDataProperties copy.swift in Sources */,
+				F429E7272DC5677200D3C829 /* Goals.swift in Sources */,
+				F429E70A2DC55B9A00D3C829 /* AppDelegate.swift in Sources */,
+				F4A69BBB2DC80D6700F55B4D /* WorkoutEntity+CoreDataClass copy.swift in Sources */,
+				F429E7252DC5676200D3C829 /* Workout.swift in Sources */,
+				F429E7292DC5678500D3C829 /* ProgressVC.swift in Sources */,
+				F429E70C2DC55B9A00D3C829 /* SceneDelegate.swift in Sources */,
+				F4A69BAF2DC7F51B00F55B4D /* Entity+CoreDataClass copy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F429E70F2DC55B9A00D3C829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F429E7102DC55B9A00D3C829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F429E7172DC55B9D00D3C829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F429E7182DC55B9D00D3C829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F429E71B2DC55B9D00D3C829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F429E71C2DC55B9D00D3C829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F429E71E2DC55B9D00D3C829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EC24A8F9C0C23BC335DB10 /* Pods-CodeAlpha_Fitness_Tracker_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K677TQ5Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodeAlpha_Fitness_Tracker_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marwan.cam.CodeAlpha-Fitness-Tracker-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F429E71F2DC55B9D00D3C829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31461176DBBB291E43B911E /* Pods-CodeAlpha_Fitness_Tracker_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K677TQ5Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodeAlpha_Fitness_Tracker_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marwan.cam.CodeAlpha-Fitness-Tracker-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F429E7012DC55B9A00D3C829 /* Build configuration list for PBXProject "CodeAlpha_Fitness_Tracker_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429E71B2DC55B9D00D3C829 /* Debug */,
+				F429E71C2DC55B9D00D3C829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F429E71D2DC55B9D00D3C829 /* Build configuration list for PBXNativeTarget "CodeAlpha_Fitness_Tracker_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429E71E2DC55B9D00D3C829 /* Debug */,
+				F429E71F2DC55B9D00D3C829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F429E7122DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F429E7132DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodel */,
+			);
+			currentVersion = F429E7132DC55B9A00D3C829 /* CodeAlpha_Fitness_Tracker_App.xcdatamodel */;
+			path = CodeAlpha_Fitness_Tracker_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F429E6FE2DC55B9A00D3C829 /* Project object */;
+}

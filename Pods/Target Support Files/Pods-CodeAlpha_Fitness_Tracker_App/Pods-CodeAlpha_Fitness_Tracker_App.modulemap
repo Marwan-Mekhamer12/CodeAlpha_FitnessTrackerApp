@@ -1,0 +1,6 @@
+framework module Pods_CodeAlpha_Fitness_Tracker_App {
+  umbrella header "Pods-CodeAlpha_Fitness_Tracker_App-umbrella.h"
+
+  export *
+  module * { export * }
+}
